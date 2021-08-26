@@ -1,0 +1,47 @@
+
+body{
+  background-color:#42f58a;
+  text-align:center;
+
+}
+.container {
+  margin: auto;
+  padding: 100px;
+  text-align:center;
+}
+
+form {
+  background: #eee;
+  width: 50%;
+  padding: 100px;
+  margin-left:200px;
+  margin-top:50px;
+  
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align:left;
+}
+button {
+  margin-top: 10px;
+  border:2px solid black;
+  background-color:blue;
+  border-radius:20px;
+  color:white;
+  height:50px;
+}
+
+button:hover{
+  background-color:yellow;
+  color:black;
+}
+table {
+  border-collapse: collapse;
+}
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}

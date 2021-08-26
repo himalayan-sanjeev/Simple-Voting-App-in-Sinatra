@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Voting App</title>
+  </head>
+  <body>
+    <h2>What's for dinner?</h2>
+
+    <form action='cast' method='post'>
+      <ul>
+        <% CHOICES.each do |id, text| %>
+          <li>
+            <label>
+              <input type='radio' name='vote' value='<%= id %>' id='vote_<%= id %>' />
+              <%= text %>
+            </label>
+          </li>
+        <% end %>
+      </ul>
+
+      <button type='submit'>Cast this vote!</button>
+    </form>
+  </body>
+</html>
+
