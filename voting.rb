@@ -5,11 +5,13 @@ CHOICES = {
   'HAM' => 'Hamburger',
   'PIZ' => 'Pizza',
   'CUR' => 'Curry',
-  'NOO' => 'Noodles'
+  'NOO' => 'Noodles',
+  'MMO' => 'MoMo',
+  'FFI'=>'French Fries'
 }
 
 get '/' do
-  @title = 'Welcome to the Foo Restaurant!'
+  @title = 'Welcome to the Sinatra Restaurant!'
   erb :index
 end
 
